@@ -5,9 +5,21 @@ This is simple bash script to fix node-id changing. It checks your id every 30 s
 # CLone minima-fix-id.sh to your server
 wget https://raw.githubusercontent.com/isafin509/minima/main/minima-fix-id.sh
 # Open file with nano or other text editor
-nano minima-fixid.sh
+nano minima-fix-id.sh
 # Replace YOUR_NODE_ID with your minima node-id
 # It must look like this
 nid="72bxxxxx-xxxx-xxxx-xxxx-xxxxxxxxxds4"
-#Save changes and exit
+# Save changes and exit
+```
+Next you have to make this script executable and run in background. I use nohup for this purpose
+```
+# Make script executable
+chmod +x minima-fix-id.sh
+# And run in background using nohup
+nohup ./minima-fix-id.sh > minima_fix-id.log 2>&1 &
+```
+Logs of running script will be written to minima_fix-id.log file
+You can check logs with following command 
+```
+cat minima_fix-id.log
 ```
