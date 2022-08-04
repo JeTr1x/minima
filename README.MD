@@ -16,10 +16,12 @@ Next you have to make this script executable and run in background. I use nohup 
 # Make script executable
 chmod +x minima-fix-id.sh
 # And run in background using nohup
-nohup ./minima-fix-id.sh > minima_fix-id.log 2>&1 &
+nohup ./minima-fix-id.sh > minima-fix-id.log 2>&1 &
 ```
-Logs of running script will be written to minima_fix-id.log file
+Logs of running script will be written to minima-fix-id.log file
 You can check logs with following command 
 ```
-cat minima_fix-id.log
+cat minima-fix-id.log
 ```
+## My Discord
+If you have questions/suggestions feel free to DM me on Discord: JeTrix#8775
