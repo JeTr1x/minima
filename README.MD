@@ -9,4 +9,5 @@ nano minima-fixid.sh
 # Replace YOUR_NODE_ID with your minima node-id
 # It must look like this
 nid="72bxxxxx-xxxx-xxxx-xxxx-xxxxxxxxxds4"
+#Save changes and exit
 ```
