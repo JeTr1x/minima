@@ -9,7 +9,7 @@ nano minima-fix-id.sh
 # Replace YOUR_NODE_ID with your minima node-id
 # It must look like this
 nid="72bxxxxx-xxxx-xxxx-xxxx-xxxxxxxxxds4"
-# If you have minima running on different port also change port number (default is port=9002)
+# If you have minima running on different port also change port number (default port=9002)
 # Save changes and exit
 ```
 Next you have to make this script executable and run in background. I use nohup for this purpose.
