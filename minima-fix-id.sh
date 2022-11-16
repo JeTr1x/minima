@@ -4,7 +4,7 @@ nid=""
 port=9005
 while :
 do
-    sleep 30
+    sleep 300
     tid=$(curl 127.0.0.1:{$port}/incentivecash | jq -r '.response.uid')
     echo "Current id: $tid"
     echo "Your id: $nid"
