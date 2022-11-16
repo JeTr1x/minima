@@ -1,6 +1,6 @@
 #!/bin/bash
 
-nid="Y"
+nid=""
 port=9005
 while :
 do
