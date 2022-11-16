@@ -1,7 +1,7 @@
 #!/bin/bash
 
-nid="YOUR_NODE_ID"
-port=9002
+nid="Y"
+port=9005
 while :
 do
     sleep 30
